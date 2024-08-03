@@ -1,0 +1,159 @@
+body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+}
+.logo {
+  float: left;
+  width: 40px; 
+  height: 30px;
+  margin: 10px; 
+  vertical-align: middle; 
+ 
+}
+ul{
+    float: right;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: black;
+    width:100% ;
+    position: fixed;
+    z-index: 1000;
+    opacity: 80%;
+}
+.header{
+  list-style-type: none ;
+  display: inline;
+
+}
+.nextpage{
+  width: 50px; 
+  height: 40px;
+  margin: 20px; 
+  vertical-align: middle; 
+  text-decoration: none;
+}
+.nextpage:hover{
+  transform: rotateY(45deg);
+}
+
+.para1{
+  float: right;
+  text-align: center;
+  color: #fff;
+  font-size: 300%;
+  padding-top: 12%;
+  padding-left: 45%;
+ 
+}
+span{
+  display: inline-block;
+  font-size: 30px;
+  color: #ffffff;
+  cursor: pointer;
+}
+span:hover{
+  color: red;
+}
+
+.button {
+    background-color: transparent;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none
+  }
+
+  .button:hover{
+    background-color: red;
+    border-radius: 10px;
+    
+  }
+
+  a:active{
+    color: #fff;
+  border-bottom: 2px solid #fff;
+  }
+  li{
+    float: right;
+}
+ 
+  .page {
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+  }
+  p{
+    color: #fff;
+  }
+   .parallax { 
+    background-image: url('./image/view-ready-eat-delicious-meal-go.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    flex-direction: column;
+    overflow: hidden;
+  } 
+  .background-page{
+    padding-top: 60px;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+  }
+  .item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: .5em;
+      -webkit-box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+    -moz-box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+    box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43); 
+  } 
+  .img {
+    width: 200%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+    border-radius: .3em;;
+    margin: 20px;
+  }
+  .card > a {
+    margin-bottom: 2em;
+   }
+  .img-first{
+    background-image: url('./image/delicious-italian-pizza-with-tomato-olives-pepperoni-mushrooms-top-view-isolated-white-background-still-life-copy-space.jpg');
+  } 
+  .img-second{
+    background-image: url(./image/pizza-smoked-salmon.jpg);
+  }
+  .img-third{
+    background-image: url(./image/mushroom-pizza-vegetarian-white-background-isolated-still-life-copy-space-top-view-flat-lay.jpg);
+  }
+   .midground-page {
+   display: flex;
+   padding-left: 40%;
+   justify-content: center;
+  }
+   .footer {
+    position: relative;
+    text-align: center; 
+    background-color:black;
+    color: #ffffff;
+    width: 100%;
+  } 
+  
